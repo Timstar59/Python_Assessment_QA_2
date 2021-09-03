@@ -32,6 +32,10 @@ import random
 
 
 def one(string):
+    comstring = ''
+    for char in string:
+        comstring + string * len(string)
+        return comstring
     return
 
     # <QUESTION 2>
@@ -51,6 +55,10 @@ def one(string):
 
 
 def two(num):
+    if num %2 or num %num:
+        return True
+    else:
+        return False
     return
 
     # <QUESTION 3>
@@ -69,6 +77,9 @@ def two(num):
 
 
 def three(a):
+    for i in range(a+1):
+        num = num + a(str(num*2))
+
     return
 
     # <QUESTION 4>
@@ -99,7 +110,9 @@ def three(a):
 
 
 def four(string1, string2):
-    return
+  merger = ''.join(''.join(merger)
+    for m in zip(string1,string2))
+  return
 
     # <QUESTION 5>
 
@@ -117,6 +130,11 @@ def four(string1, string2):
 
 
 def five():
+    import random
+    rn = [random.randint(100, 200)]
+    for i in range(0,6):
+     nn = [i %2 for i in rn]
+
     return
 
     # <QUESTION 6>
@@ -137,7 +155,12 @@ def five():
 
 
 def six(string):
-    return
+     if  string.lower().endswith('py'):
+         return True
+     else:
+         return False
+     return
+
 
     # <QUESTION 7>
 
@@ -200,7 +223,16 @@ def eight(string, num):
 
 def nine(string1, string2):
     # make sure string1 is the shortest of the two
+    lenstring1 = len(string1)
+    lenstring2 = len(string2)
+
+    if string1 in string2:
+        return True
+    else:
+        False
     return
+
+
 
     # <QUESTION 10>
 
@@ -219,4 +251,5 @@ def nine(string1, string2):
 
 
 def ten(a, b):
+
     return
